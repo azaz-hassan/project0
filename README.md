@@ -1,2 +1,3 @@
-# project0
-cs50w project 0
+# Project 0
+
+Web Programming with Python and JavaScript
