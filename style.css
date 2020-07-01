@@ -3,6 +3,10 @@ td, th
   border: solid;
 }
 
+td
+{
+  color: #d1af17;
+}
 th
 {
   background-color: #98a686;
@@ -10,10 +14,12 @@ th
 
 table
 {
+    margin-top: auto
     border: 5;
     font-size: 20px;
-    color: green;
-    background-color: black;
+    color: black;
+
+    background-color: #1c1203;
     text-align: center;
 
 }
