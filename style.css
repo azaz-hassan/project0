@@ -1,7 +1,61 @@
-td, th {
+td, th
+{
   border: solid;
 }
 
-th {
+th
+{
   background-color: #98a686;
+}
+
+table
+{
+    border: 5;
+    font-size: 20px;
+    color: green;
+    background-color: black;
+    text-align: center;
+
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+
+.right
+{
+  float: right;
+  height: 1000px;
+  width: 600px;
+}
+.left
+{
+  float: left;
+}
+
+details
+{
+    font-size: 30px;
+    color: grey;
+}
+
+details>summary
+{
+    color: #98a686;
+    font-size: 25px;
+}
+
+ul, ol, li
+{
+  color: indigo;
+
+}
+
+
+img
+{
+  width: 100%;
 }
