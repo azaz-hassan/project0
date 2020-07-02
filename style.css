@@ -1,28 +1,22 @@
 
 body{
- 
+
   background-attachment:fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #form {
- 
+
   background-color:transparent;
     padding-top: 10%;
     display: table;
     margin: 0 auto;
-  
-
-
 }
+
 h1 {
   font-family: "Allerta Stencil", Sans-serif;
   text-align: center;
-}
-div{
-  display: block;
-  height: 50px;
 }
 
 .topnav {
@@ -31,18 +25,18 @@ div{
   text-align: center;
 }
 .topnav a.active {
- 
+
   background-color: rgb(214, 211, 211);
   height: 70px;
   display: inline-block;
-  
+
 
 }
 .topnav a{
 
 
   text-align: center ;
- 
+
   padding: 14px 16px;
 
 }
@@ -54,13 +48,13 @@ div{
 }
 
  a:link, a:visited {
- 
+
   background-color:#e9e9e9;
   color: rgb(0, 0, 0);
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
- 
+
 }
 
 @media screen and (max-width: 600px) {
@@ -96,7 +90,7 @@ th
 table
 {
 
-    margin-top: auto;
+    margin-top: none;
     font-size: 110%;
     color: rgb(255, 254, 254);
 
@@ -105,21 +99,9 @@ table
 .column {
   float: left;
   width: 50%;
-  padding: 5px;
-  padding-top: 10%;
-  display: table;
-  margin: 0 auto;
-  padding-left: 10%;
- 
 }
 
 
-.right
-{
-  float: right;
-  height: 1000px;
-  width: 600px;
-}
 .left
 {
   float: left;
@@ -137,9 +119,13 @@ details>summary
     font-size: 25px;
 }
 
+h4{
+  color: white;
+}
+
 ul, ol, li
 {
-  color: indigo;
+  color: white;
 
 }
 
@@ -148,4 +134,3 @@ img
 {
   width: 100%;
 }
-
