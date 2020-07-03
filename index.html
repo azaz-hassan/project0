@@ -7,13 +7,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel = "stylesheet" type ="text/css" href = "style.css"/>
+        <link rel="stylesheet" href="footer.css">
         <style media="screen">
-
+                  @media (max-width: 1000px)
+                  {
+                    body
+                    {
+                      background: #ccffcc;
+                      background-image:none;
+                    }
+                  }
+                  body{
+                    background-image: url('home.jpg');
+                  }
             div{
               display: block;
               height: 50px;
             }
-
         </style>
     </head>
     <body background="C:\Users\DELL\Desktop\Test\Project0\project0\home.jpg">
@@ -29,12 +39,12 @@
       </div>
       <div id="form">
           <div>
-               <label> Book Name: </label>
+               <label class="inputtext"> Book Name: </label>
             <input class ="book name" type= "text" placeholder="Name of book"/>
 
          </div>
          <div>
-           <label>Author Name:</label>
+           <label class="inputtext">Author Name:</label>
             <input class ="Author name" type= "text" placeholder="Name of Author"/>
          </div>
 
@@ -42,6 +52,9 @@
          <script src="jquery/jquery-2.0.3.min.js"></script>
          <script src="bootstrap/bootstrap-2.3.1.min.js"></script>
          <script src="myOwn.js"></script>
+         <footer>
+             This page is developed for practical puposes.
+         </footer>
 
     </body>
 </html>
